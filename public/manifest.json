@@ -10,7 +10,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.reddit.com/user/*"],
-      "js": ["insertJar.js"]
+      "js": ["content.js"]
     }
   ],
   "manifest_version": 2,
